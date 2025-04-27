@@ -22,6 +22,9 @@ Open the `index.html` file directly in your browser.
 If you are using **Visual Studio Code**, install the **Live Server extension**.
 Then right-click on `index.html` and select "**Open with Live Server**"
 
+- **Option 3**:\
+Or you can check it out [here](https://yacine-sellaoui.github.io/simple-http-client/)
+
 ## Usage
 1. Select the HTTP method you want to use (GET, POST, PUT, DELETE).
 2. Enter any publicly accessible URL.
