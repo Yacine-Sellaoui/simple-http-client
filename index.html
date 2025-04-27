@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Http Client Service</title>
+</head>
+<body>
+    <h1>Basic Http Client</h1>
+
+    <div class="container">
+        <div class="method-select">
+            <button type="button" id="methodBtn">Select a mehtod ▾</button>
+            <div id="methodOptions">
+                <div>GET</div>
+                <div>POST</div>
+                <div>PUT</div>
+                <div>DELETE</div>
+            </div>
+        </div>
+
+        <input type="text" id="input" placeholder="Enter URL...">
+    </div>
+
+    <button onclick="sendRequest()">Send Request</button>
+
+    <div id="results"></div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

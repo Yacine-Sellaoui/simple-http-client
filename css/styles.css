@@ -1,0 +1,27 @@
+.method-select {
+  position: relative;
+  display: inline-block;
+}
+
+#methodOptions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+  display: none;
+  z-index: 999;
+}
+
+#methodOptions div {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#methodOptions div:hover {
+  background-color: #eee;
+}
+
+#methodOptions.show {
+  display: block;
+}
